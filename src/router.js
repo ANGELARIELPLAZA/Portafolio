@@ -51,12 +51,6 @@ export default new Router({
         import( /* webpackChunkName: "about" */ "./views/Portfolio/diseñopcb.vue")
     },
     {
-      path: "/portfolio/grafico",
-      name: "graphicPortfolio",
-      component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Portfolio/grafico.vue")
-    },
-    {
       path: "/portfolio/web",
       name: "webPortfolio",
       component: () =>

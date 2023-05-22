@@ -63,10 +63,6 @@ export default {
         {
           src: "https://i.imgur.com/qoO0IpO.png",
           title: "Diseño PCB"
-        },
-        {
-          src: "https://i.imgur.com/UujEV91.png",
-          title: "Grafico"
         }
       ]
     };

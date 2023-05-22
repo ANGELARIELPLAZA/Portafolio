@@ -3,12 +3,11 @@
     <VueCompareImage class="hidden-md-and-down" hover :style="{ minWidth: '1300px' }" :sliderLineWidth="sliderLine"
       :handleSize="hSize" :leftImage="leftImage" :rightImage="rightImage" :sliderPositionPercentage="sliderPosition" />
     <VueCompareImage class="hidden-lg-and-up" hover :style="{ maxWidth: '400px' }" :sliderLineWidth="sliderLine"
-      :handleSize="hSize" :leftImage="leftImage2" :rightImage="rightImage2"
-      :sliderPositionPercentage="sliderPosition" />
+      :handleSize="hSize" :leftImage="leftImage2" :rightImage="rightImage2" :sliderPositionPercentage="sliderPosition" />
 
     <br>
 
-    <vue-typer class="headline" :repeat="0" text="Angel Ariel"></vue-typer>
+    <vue-typer class="headline" :repeat="0" text="Angel Ariel Plaza Acuña"></vue-typer>
     <vue-typer :text="text1" :repeat="Infinity" :shuffle="false" initial-action="erasing" :pre-type-delay="70"
       :type-delay="70" :pre-erase-delay="1980" :erase-delay="150" erase-style="select-back" :erase-on-complete="false"
       caret-animation="smooth"></vue-typer>
@@ -23,15 +22,15 @@
             </h3>
             <div>
               <p>
-                ¡Hola! Soy Ángel Ariel. Soy <span class="light-blue--text font-weight-bold">desarrollador IoT e Ing.Electronico </span> que
-                esta apasionado por el desarrollo web/dispositivos en sistemas ciberfisicos creando plataformas simples y
-                conectandolas al mundo real.
+                ¡Hola! Soy Ángel Ariel, un <span class="light-blue--text font-weight-bold">desarrollador de IoT e
+                  Ingeniero Electrónico</span> apasionado por el desarrollo web y dispositivos en sistemas ciberfísicos.
+                Mi objetivo es crear plataformas simples pero eficientes para el monitoreo a distancia y conectarlas al mundo real.
                 <br>
-                Tengo muchos pasatiempos pero mi objetivo es superarme dia con dia ya sea programando, editando,
-                creando, diseñando o incluso reparando, una de mis metas es viajar y conocer el mundo sin dejar de
-                aprender.
+                Tengo diversos pasatiempos, pero mi principal objetivo es superarme cada día. Además, una de mis metas es viajar y conocer el mundo,
+                sin dejar de aprender haciendo lo que me apasiona.
               </p>
             </div>
+
           </div>
         </v-card-title>
 
@@ -93,7 +92,7 @@ export default {
         },
         { href: "https://www.instagram.com/dev_iiot3d/", icon: "fab fa-instagram" }
       ],
-      text1: [" FullStack Jr Developer", "IoT Developer", "Web Designer" ,"Ing.Electronico"],
+      text1: [" FullStack Jr Developer", "IoT Developer", "Web Designer", "Ing.Electronico"],
       leftImage: "https://i.imgur.com/lthRftA.png",
       rightImage: "https://i.imgur.com/sfEnWJ3.png",
       leftImage2: "https://i.imgur.com/Rv5fZ7B.png",
